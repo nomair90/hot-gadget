@@ -1,0 +1,89 @@
+
+.*{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buy-now-button{
+    
+        border: transparent;
+        background-color: black;
+        border-radius: 8px;
+        padding: 9px 25px;
+        cursor: pointer;
+        transition: 2s;
+        color: #ffffff;
+        
+    }
+   .bg-1{
+    width: 50px;
+   }
+ .bg-2{
+   width: 100px;
+   margin-top: 350px;
+ }
+ .carousel p{
+   color: gray;
+ }
+   
+ .see{
+   float: right;
+   font-size: 12px;
+   color: orange;
+ }
+ .caption h4{
+font-weight: bold;
+ }
+ .card img{
+   width: 80%;
+   padding-left: 15%;
+ }
+ .card{
+   
+   box-shadow: rgba(147, 147, 158, 0.2) 0px 7px 10px 0px;
+   border-radius: 10px;
+   margin-top: 20px;
+   
+ }
+ .cd1{
+   margin: 150px 0 0 70px;
+   border-radius: 0px 20px 0px 20px;
+ }
+ .cdt{
+   border-radius: 0px 20px 0px 20px;
+   box-shadow: rgba(147, 147, 158, 0.2) 0px 7px 10px 0px;
+ }
+ .container{
+   text-align: center;
+ }
+ .categories{
+   margin-top: 100px;
+ }
+ .cat{
+   margin-top: 50px;
+ }
+ underline-hover-effect {
+   text-decoration: none;
+   color: inherit;
+ }
+ 
+ .underline-hover-effect {
+   display: inline-block;
+   padding-bottom: 10px; /* defines the space between text and underline */
+   position: relative;
+ }
+ 
+ .underline-hover-effect::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 0;
+   height: 5px;
+   background-color:orange;
+    }
+ .underline-hover-effect:before {
+   width: 50%;
+   margin-left: 50px;
+   border-radius: 50px;
+   
+   
+ }
